@@ -47,7 +47,7 @@ TODO: Replace the image below with your own.
 
 TODO: Replace the image below with your own.
 
-![model_test_score.png](img/model_test_score.png)
+![model_test_score.png](img/model_train_score_img.png)
 
 ## Summary
 TODO: In this case study we build the regression model to predict the bike demand given the bike sharing historical data. I first analyzed the features,  plotting sample rows and using pandas describe method. Then I build initial first model with default parameters and without doing much temparing with the features. Got the initial RMSE score after training the model. This was initial benchmark established.
