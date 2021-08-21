@@ -31,23 +31,26 @@ TODO: I would spend more time doing following experiments.
 5) I would also explore on different feature engineering techniques such as feature scaling, dropping irrelevant columns etc  
 
 ### Create a table with the models you ran, the hyperparameters modified, and the kaggle score.
-|model|hpo1|hpo2|hpo3|score|
+
+|model|time|num_boost_round|num_epochs|score|
 |--|--|--|--|--|
-|initial|'default'|'default'|'default'|1.36123|
-|add_features|'default'|'default'|'default'|0.45526|
-|hpo|'GBM, NN'|'GBM, NN'|'GBM, NN'|0.47932|
+|initial|'600'|'default'|'default'|1.36123|
+|add_features|'600'|'default'|'default'|0.45526|
+|hpo|'900'|'100'|'5'|0.47932|
+|hpo1|'600'|'50'|'20'|0.61686|
+|hpo2|'900'|'150'|'10'|0.48209|
 
 ### Create a line plot showing the top model score for the three (or more) training runs during the project.
 
 TODO: Replace the image below with your own.
 
-![model_train_score.png](img/model_train_score_img.png)
+![model_train_score.png](img/model_train_score_img.PNG)
 
 ### Create a line plot showing the top kaggle score for the three (or more) prediction submissions during the project.
 
 TODO: Replace the image below with your own.
 
-![model_test_score.png](img/model_test_score.png)
+![model_test_score.png](img/model_test_score.PNG)
 
 ## Summary
 TODO: In this case study we build the regression model to predict the bike demand given the bike sharing historical data. I first analyzed the features,  plotting sample rows and using pandas describe method. Then I build initial first model with default parameters and without doing much temparing with the features. Got the initial RMSE score after training the model. This was initial benchmark established.
